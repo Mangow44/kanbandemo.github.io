@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+  	<head>
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="./indexStyle.css">
+    	<title>Thomas's Kanban</title>
+  	</head>
+  	<body>
+		<header>
+      		<nav>
+          		<div class="nav-wrapper purple darken-1">
+              		<a href="#" class="brand-logo center"> Kanban</a>
+          		</div>
+      		</nav>
+		</header>
+		
+    	<noscript>
+      		<strong>We're sorry but Thomas's Kanban doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+		</noscript>
+		
+    	<div id="app"></div>
+		<!-- built files will be auto injected -->
+		
+		<footer class="page-footer purple">
+			<div class="container ">
+			  	<div class="row">
+					<div class="col l6 s12">
+				 	 	<h5 class="white-text">Kanban demo</h5>
+				 	 	<p class="grey-text text-lighten-4">Made by Thomas, may 6th 2020.</p>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright purple darken-2">
+			  	<div class="container">© 2020 Copyright Text</div>
+			</div>
+		</footer>
+
+		<script src="./indexJs.js"></script>
   </body>
 </html>
